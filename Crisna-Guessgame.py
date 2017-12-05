@@ -5,11 +5,10 @@
 # response = ""
 # while response != "50":
 #     response = input("Say \"50\"")
+
+import random
+number = (random.randint(0,50))
 num = input("Give me a number")
-
-# import random
-# number = (random.randint(0,50))
-
 # def grade_calc(number):
 #     if number <= 50:
 #         return "Wrong man"
