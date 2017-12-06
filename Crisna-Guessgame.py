@@ -7,11 +7,12 @@
 #     response = input("Say \"50\"")
 
 import random
-number = (random.randint(0,50))
-num = input("Give me a number")
-# def grade_calc(number):
-#     if number <= 50:
-#         return "Wrong man"
+number = (random.randint(0 , 50))
+num = input("Give me a number between 50 and 1")
+print("ryujin no ken wo kurae")
+print("Guess higher")
+print("Guess Lower")
+
 
 
 # 1) generate a number
@@ -19,3 +20,4 @@ num = input("Give me a number")
 # 3)compare number to input
 # 4)add "Higher" or "lower"
 # 5)add 5 guesses
+
