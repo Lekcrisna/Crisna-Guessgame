@@ -1,17 +1,17 @@
-
-
-
+import random
 # print("Guess a number between 1 and 50")
 # response = ""
 # while response != "50":
 #     response = input("Say \"50\"")
+print()
 
-import random
-number = (random.randint(0 , 50))
-num = input("Give me a number between 50 and 1")
-print("ryujin no ken wo kurae")
-print("Guess higher")
-print("Guess Lower")
+number = (random.randint(1, 50))
+print(number)
+guess = int(input("Guess a number between 1 and 50"))
+if number == guess:
+    print("You win")
+
+
 
 
 
