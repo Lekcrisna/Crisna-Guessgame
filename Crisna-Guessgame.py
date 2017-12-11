@@ -1,18 +1,21 @@
 import random
-# print("Guess a number between 1 and 50")
-# response = ""
-# while response != "50":
-#     response = input("Say \"50\"")
-print()
 
-number = (random.randint(1, 50))
-print(number)
-guess = int(input("Guess a number between 1 and 50"))
-if number == guess:
-    print("You win")
+print(random.randint(1,50))
+number = (random.randint(1,50))
+guess = "0"
+guesses = 0
 
-
-
+while int(guess) != number and guesses < 5:
+    guess = input("What is your guess?")
+    if guess == str(number):
+        print("Correct.")
+    elif(int(guess) >= number):
+        print("Lower.")
+    elif(int(guess) >= number):
+        print("Higher")
+        guesses += 1
+if guesses >= 5:
+        print("Goodbye.")
 
 
 # 1) generate a number
